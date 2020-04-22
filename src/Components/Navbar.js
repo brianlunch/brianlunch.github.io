@@ -34,9 +34,9 @@ class NavbarLocal extends Component {
                 activePage.endsWith('/about-me') ? 'nav-link--active' : 'nav-link'
               }
             >
-              About Us
+              About Me
             </Nav.Link>
-            
+
             <Nav.Link
               as={Link}
               to="/cv"
@@ -49,26 +49,27 @@ class NavbarLocal extends Component {
 
             <Nav.Link
               as={Link}
-              to="/feed"
+              to="/portfolio"
               className={
                 activePage.endsWith('/feed') ? 'nav-link--active' : 'nav-link'
               }
             >
-              Feed
+              My Portfolio
             </Nav.Link>
 
-            
-
-            <a
+            <Nav.Link
               as={Link}
-              target="_blank"
-              href="https://github.com/isobelm/Software-Engineering"
+              to="/about-me"
               className={
-                activePage.endsWith('/ksknc') ? 'nav-link--active' : 'nav-link'
+                activePage.endsWith('/feed') ? 'nav-link--active' : 'nav-link'
               }
             >
-              Github Project
-            </a>
+              Contact Me
+            </Nav.Link>
+
+
+
+
           </Nav>
         </Navbar.Collapse>
       </Navbar>

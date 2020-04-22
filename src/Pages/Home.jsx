@@ -33,7 +33,7 @@ class Home extends Component {
             </div>
             <div className="row">
             <CardItems title1="My" title2="Github" link="about-me" style="card Card-yellow" icon="faGithub"></CardItems>
-            <CardItems title1="My" title2="CV" link="about-me" style="card Card-blue" icon="faFileAlt"></CardItems>
+            <CardItems title1="My" title2="CV" link="cv" style="card Card-blue" icon="faFileAlt"></CardItems>
             </div>
           </div>
           </div>

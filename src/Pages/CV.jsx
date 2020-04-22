@@ -5,7 +5,7 @@ import Navbar from '../Components/Navbar'
 import Title from '../Components/Title'
 import CardItems from '../Components/CardItems'
 import CVimage from '../cv.png'
-import CVpdf from '../CV.pdf'
+import CVBrianLynch from '../CVBrianLynch.pdf'
 
 /*This is the home page and makes use of the Navbar, 
 homeNavConatiner, homeStatsContainer and TitleContainer components */
@@ -22,8 +22,8 @@ class CV extends Component {
       <div className="CV slide-in-fwd-center">
           <Navbar history={this.state.history}></Navbar>
           <img className ="cvImage" src ={CVimage}/><br></br><br></br>
-          <button type="button" class="btn btn-outline-primary"><b>Download PDF</b></button>
-          <a class ="text-dark" href="{CVpdf}"target="_blank" data-toggle="tooltip"  data-placement="bottom" title="Download CV" data-offset="0%, 50%">hi</a>
+          <a target="_blank" href={CVBrianLynch} class="btn btn-outline-primary"><b>View PDF File</b></a>
+         
           <br></br><br></br><br></br><br></br>
           
         </div>
